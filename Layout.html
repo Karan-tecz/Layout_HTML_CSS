@@ -1,0 +1,139 @@
+<html>
+    <title>Layout page</title>
+    <head></head>
+    <style>
+        header{
+            display: flex;
+            height: 200px;
+            flex-direction: row;
+            margin: 0px;
+            
+        }
+        .left{
+            height: inherit;
+            width: 20%;
+            background-image: url(mcu.png);
+            background-size: cover;
+            border: 2px solid black;
+        }
+        .right{
+            height: inherit;
+            width: 80%;
+            background-color: red;
+            color: white;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+        }
+        h1{
+            font-size: 100px;
+            margin-top: 50px;
+        }
+        .marvel{
+            width: 50%;
+            color: red;
+            background-color: white;
+            padding-left: 80px;
+
+        }
+        .studios{
+            width: 50%;
+            color: white;
+            background-color: red;
+            padding-right: 80px;
+        }
+        nav{
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(3, 0, 1);
+            
+           
+        }
+        .n{
+            height: inherit;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 20;
+        }
+        .n:hover{
+            background-color: red;
+            transition: 1s;
+        }
+        section{
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+        }
+        .s1{
+            height: inherit;
+            width: 60%;
+            background-image: linear-gradient(90deg,rgb(0, 0, 0),#204BA0,#45BFE7);
+            background-image: url(https://reporter.lcms.org/wp-content/uploads/2019/05/Avengers-Endgame.jpg);
+            background-size: cover;
+        }
+        .s2{
+            height: inherit;
+            width: 20%;
+            background-color: #45BFE7;
+            background-image: url(https://w0.peakpx.com/wallpaper/173/389/HD-wallpaper-avengers-thor-thor-ragnarok-marvel-avengers-superhero.jpg);
+            background-size: cover;
+        }
+        .s1:hover{
+            opacity: .5;
+        }
+        .s3{
+            height: inherit;
+            width: 20%;
+            background-color: #45BFE7;
+            background-image: url(https://i.pinimg.com/736x/25/65/7a/25657a10c1dba698f2846ec9f795a39b.jpg);
+            background-size: cover;
+        }
+        h2{
+            color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 1px;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="left"></div>
+            <div class="right">
+                <div class="marvel"><center><h1>MARVEL</h1></center></div>
+                <div class="studios"><center><h1>STUDIOS</h1></center></div>
+            </div>
+        </header>
+        <nav>
+            <div class="n"><a href="">NEWS</a></div>
+            <div class="n"><a href="">COMICS</a></div>
+            <div class="n"><a href="">CHARACTER</a></div>
+            <div class="n"><a href="">MOVIES</a></div>
+            <div class="n"><a href="">GAMES</a></div>
+        </nav>
+        <section>
+            <div class="s1"><marquee behavior="" direction="up" onmouseout="this.start()" onmouseover="this.stop()">
+                <h2>A UNIVERSE OF SUPER HEROS</h2>
+                <h2>All your Favorite Stories and more.Start Streaming Now!!!</h2>
+            </marquee></div>
+            <div class="s2"></div>
+            <div class="s3">
+                <div class="r"></div>
+                <div class="r1"></div>
+                <div class="r2"></div>
+            </div>
+        </section>
+        <footer>
+            <center><h3>©2024 MARVEL</h3></center>
+        </footer>
+    </body>
+</html>
